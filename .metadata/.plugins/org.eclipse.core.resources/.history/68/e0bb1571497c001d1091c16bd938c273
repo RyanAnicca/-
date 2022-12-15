@@ -1,0 +1,8 @@
+package tw.hibernatedemo.model;
+
+public class BooksUsers {
+
+	public BooksUsers() {
+	}
+
+}

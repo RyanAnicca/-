@@ -1,5 +1,7 @@
 package tw.hibernatedemo.action;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -52,14 +54,22 @@ public class DemoCompanyDaoEx1 {
 //			}
 					
 			//測試delete v2
-			CompanyBean com2 = dao.findById(1004);
+//			CompanyBean com2 = dao.findById(1004);
+//			
+//			boolean result = dao.deleteCompany(com2);
+//			
+//			if(result) {
+//				System.out.println("刪除成功");
+//			}else {
+//				System.out.println("沒有這筆資料，刪除失敗");
+//			}
 			
-			boolean result = dao.deleteCompany(com2);
+			//找全部
+			List<CompanyBean> result = dao.selectAll();
 			
-			if(result) {
-				System.out.println("刪除成功");
-			}else {
-				System.out.println("沒有這筆資料，刪除失敗");
+			for(CompanyBean com : result) {
+				System.out.println("id: " + com.getCompanyId());
+				System.out.println("name: " + com.getCompanyName());
 			}
 			
 			session.getTransaction().commit();;

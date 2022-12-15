@@ -1,0 +1,16 @@
+package tw.hibernatedemo.service;
+
+import org.hibernate.Session;
+
+import tw.hibernatedemo.model.CompanyDao;
+
+public class CompanyService {
+
+	private CompanyDao comDao;
+	
+	public CompanyService(Session session) {
+		this.comDao = new CompanyDao(session);
+	}
+	
+	
+}

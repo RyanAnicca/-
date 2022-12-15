@@ -1,0 +1,28 @@
+package tw.hibernatedemo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="instructorDetail")
+public class InstructorDetail {
+	
+	
+	@Id
+	@
+	private Integer id;
+	
+	private String email;
+	
+	private String phone;
+	
+	
+	
+	
+	
+	
+	
+	public InstructorDetail() {
+	}
+	
+}

@@ -24,3 +24,27 @@
 1671069337075	Extract local variable 'result'
 1671071075997	Extract local variable 'query'
 1671071137629	Extract local variable 'result'
+1671071289758	Extract local variable 'result'
+1671073388275	Extract local variable 'factory'
+1671073417295	Extract local variable 'session'
+1671073605966	Extract local variable 'companyService'
+1671073633310	Extract local variable 'comBean'
+1671076818801	Extract local variable 'factory'
+1671076862897	Extract local variable 'session'
+1671083556464	Copy compilation unit
+1671083963335	Extract local variable 'ins1'
+1671083989808	Extract local variable 'detail'
+1671084515507	Copy compilation unit
+1671084628044	Extract local variable 'detail'
+1671084667273	Extract local variable 'ins1'
+1671085148187	Copy compilation unit
+1671085462604	Extract local variable 'detail'
+1671086616539	Copy compilation unit
+1671087176501	Extract local variable 'ins1'
+1671087204996	Extract local variable 'detail'
+1671091269687	Extract local variable 'factory'
+1671091287674	Extract local variable 'session'
+1671091429817	Extract local variable 'user1'
+1671091510146	Extract local variable 'book1'
+1671092502921	Copy compilation unit
+1671092685384	Extract local variable 'books'

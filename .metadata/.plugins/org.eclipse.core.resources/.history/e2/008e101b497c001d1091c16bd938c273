@@ -1,0 +1,9 @@
+package tw.hibernatedemo.model;
+
+public class BooksUsers {
+
+	public BooksUsers() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

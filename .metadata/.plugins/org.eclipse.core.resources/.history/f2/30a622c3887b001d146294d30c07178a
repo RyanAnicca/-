@@ -1,0 +1,13 @@
+package tw.hibernatedemo.model;
+
+import org.hibernate.Session;
+
+public class CompanyDao {
+
+	private Session session;
+	//依賴注入,Dependency Injection
+	public CompanyDao(Session session) {
+		this.session = session;
+	}
+	
+}

@@ -1,0 +1,43 @@
+package tw.hibernatedemo.action;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import tw.hibernatedemo.model.CompanyBean;
+import tw.hibernatedemo.model.CompanyDao;
+import tw.hibernatedemo.util.HibernateUtil;
+
+public class DemoCompanyDaoEx1 {
+
+	public static void main(String[] args) {
+		SessionFactory factory = HibernateUtil.getSessionFactory();
+		Session session = factory.getCurrentSession();
+
+		
+		
+		
+		
+		try {
+			session.beginTransaction();
+			
+			CompanyDao dao = new CompanyDao(session);
+			
+			CompanyBean com1 = new CompanyBean();
+			com1.setCompanyId(1003);
+			com1.setCompanyName("運動彩券");
+			
+			dao.insertCompany(com1);
+			
+			session.getTransaction().commit();;
+		} catch (Exception e) {
+			System.out.println("rollback");
+			session.getTransaction().rollback();
+			e.printStackTrace();
+			
+			
+		}finally {
+			HibernateUtil.closeSessionFactory();
+		}
+	}
+
+}

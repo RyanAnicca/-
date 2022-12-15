@@ -1,0 +1,60 @@
+package tw.hibernatedemo.model;
+
+import org.hibernate.Session;
+
+public class CompanyDao {
+
+	private Session session;
+
+	// 依賴注入,Dependency Injection
+	public CompanyDao(Session session) {
+		this.session = session;
+	}
+
+	public CompanyBean insertCompany(CompanyBean comBean) {
+		CompanyBean companyBean = session.get(CompanyBean.class, comBean.getCompanyId());
+
+		if (companyBean == null) {
+			session.save(comBean);
+			return comBean;
+		}
+
+		return null;
+	}
+
+	public CompanyBean findById(Integer id) {
+		return session.get(CompanyBean.class, id);
+	}
+
+	public CompanyBean updateoneCompany(Integer id, String newName) {
+		CompanyBean comBean = session.get(CompanyBean.class, id);
+
+		if (comBean != null) {
+			comBean.setCompanyName(newName);
+		}
+		return comBean;
+	}
+
+	public boolean deleteCompany(Integer id) {
+		CompanyBean comBean = session.get(CompanyBean.class, id);
+
+		if (comBean != null) {
+			session.delete(comBean);
+			return true;
+		}
+
+		return false;
+
+	}
+
+	public boolean deleteCompany(CompanyBean comBean) {
+		if (comBean != null) {
+			session.delete(comBean);
+			return true;
+		}
+
+		return false;
+
+	}
+
+}

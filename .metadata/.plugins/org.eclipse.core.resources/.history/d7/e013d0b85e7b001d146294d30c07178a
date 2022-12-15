@@ -1,0 +1,13 @@
+package tw.hibernatedemo.model;
+
+public class CompanyBean {
+
+	private Integer companyID;
+	
+	private String companyName;
+	
+	
+	public CompanyBean() {
+	}
+
+}

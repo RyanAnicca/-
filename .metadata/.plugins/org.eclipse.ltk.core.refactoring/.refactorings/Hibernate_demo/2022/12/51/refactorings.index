@@ -48,3 +48,20 @@
 1671091510146	Extract local variable 'book1'
 1671092502921	Copy compilation unit
 1671092685384	Extract local variable 'books'
+1671156634351	Extract local variable 'factory'
+1671156662390	Extract local variable 'session'
+1671157824284	Extract local variable 'friendsInWorkGroup'
+1671157851637	Extract local variable 'friend'
+1671157925602	Extract local variable 'friendName'
+1671158134982	Extract local variable 'bill'
+1671160097110	Extract local variable 'factory'
+1671160116781	Extract local variable 'session'
+1671160348754	Extract local variable 'query'
+1671160399729	Extract local variable 'resultList'
+1671160488102	Extract local variable 'hqlDemo'
+1671161763595	Extract local variable 'resultList'
+1671171862957	Copy file
+1671171914381	Copy package
+1671171929384	Copy package
+1671171957423	Copy package
+1671171973902	Copy package

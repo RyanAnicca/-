@@ -51,4 +51,9 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.service.MemberLoginService"/>
     <fullyQualifiedTypeName name="org.hibernate.NonUniqueResultException"/>
+    <fullyQualifiedTypeName name="tw.leochen.util.LogProvider"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.LoginService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.Room"/>
 </qualifiedTypeNameHistroy>

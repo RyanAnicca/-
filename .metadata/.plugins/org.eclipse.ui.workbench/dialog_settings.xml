@@ -6,4 +6,6 @@
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 		</list>
 	</section>
+	<section name="EditorSelectionDialog">
+	</section>
 </section>

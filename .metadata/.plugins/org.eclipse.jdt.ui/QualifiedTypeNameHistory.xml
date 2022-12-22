@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.MetadataSources"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.model.Department"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.AddSubShiftOp"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.model.CompanyDao"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.model.CompanyBean"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.service.CompanyService"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.model.Instructor"/>
-    <fullyQualifiedTypeName name="tw.hibernatedemo.model.InstructorDetail"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.OrderBy"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.model.Books"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.model.BooksUsers"/>
@@ -31,7 +13,6 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.model.MyGroup"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.action.DemoHQLActionEx1"/>
     <fullyQualifiedTypeName name="tw.hibernatedemo.model.Employee"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
@@ -53,7 +34,30 @@
     <fullyQualifiedTypeName name="org.hibernate.NonUniqueResultException"/>
     <fullyQualifiedTypeName name="tw.leochen.util.LogProvider"/>
     <fullyQualifiedTypeName name="tw.leonchen.model.LoginService"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="tw.leonchen.model.Room"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.Animal"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.AnimalService"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.IAnimalService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="java.lang.management.ClassLoadingMXBean"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.WorkerService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.TreeBean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="javax.swing.Spring"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.Person"/>
+    <fullyQualifiedTypeName name="org.springframework.expression.spel.standard.SpelExpressionParser"/>
+    <fullyQualifiedTypeName name="java.beans.Expression"/>
+    <fullyQualifiedTypeName name="org.springframework.expression.spel.support.StandardEvaluationContext"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="tw.leonchen.model.TruckBean"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

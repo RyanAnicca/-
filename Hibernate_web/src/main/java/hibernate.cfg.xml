@@ -41,6 +41,7 @@
         <mapping class="tw.hibernatedemo.model.Friend"/>
         <mapping class="tw.hibernatedemo.model.Employee"/>
         <mapping class="tw.hibernatedemo.model.Member"/>
+        <mapping class="tw.hibernatedemo.model36.Category"/>
     
         
     </session-factory>

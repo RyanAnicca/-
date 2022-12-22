@@ -8,4 +8,10 @@
 	</section>
 	<section name="EditorSelectionDialog">
 	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="C:\Users\User\Desktop\20221201.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\User\Desktop\20221201.epf"/>
+		</list>
+	</section>
 </section>

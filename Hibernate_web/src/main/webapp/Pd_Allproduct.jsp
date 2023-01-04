@@ -46,7 +46,7 @@
 					<!-- 					<h1 class="h3 mb-4 text-gray-800">商城維護</h1> -->
 					<div>
 						<form
-							action="<c:url value='http://localhost:8080/campingmapping/T4_36/html5up-editorial/Pd_insert.jsp'/>"
+							action="<c:url value='http://localhost:8080/Hibernate_web/Pd_insert.jsp'/>"
 							method="POST">
 							<input type="submit" value="新增產品"
 								style="width: 105px; height: 50px;">
@@ -191,7 +191,7 @@
 				function confirmDelete(id) {
 					if (confirm("確定刪除此項產品資料(編號:" + id + ")?")) {
 							
-						document.forms[0].action="http://localhost:8080/campingmapping/CategoryDeleteServlet.do?ProductId="+id;
+						document.forms[0].action="http://localhost:8080/Hibernate_web/CategoryDeleteServlet.do?ProductId="+id;
 						document.forms[0].method="POST";
 						document.forms[0].submit();
 // 						window.location.replace("http://localhost:8080/campingmapping/T4_36/html5up-editorial/Pd_delet.jsp");
@@ -200,7 +200,7 @@
 				}
 				function updateProduct(id) {
 					if (confirm("確定修改此項產品資料(編號:" + id + ")?")) {
-						document.forms[0].action="http://localhost:8080/campingmapping/CategorySelectByPdidServlet.do?pdid="+id;
+						document.forms[0].action="http://localhost:8080/Hibernate_web/CategorySelectByPdidServlet.do?pdid="+id;
 						document.forms[0].method="POST";
 						document.forms[0].submit();
 						

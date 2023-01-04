@@ -57,7 +57,7 @@ public class Pd_insertServlet extends HttpServlet {
 			categoryService.create(bean);
 
 			String contextPath = request.getContextPath();
-			response.sendRedirect(contextPath + "/T4_36/html5up-editorial/Pd_ok.jsp");
+			response.sendRedirect(contextPath + "/Pd_ok.jsp");
 
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();

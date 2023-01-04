@@ -11,13 +11,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
 import tw.hibernatedemo.model36.Category;
 import tw.hibernatedemo.service36.CategoryService;
 import tw.hibernatedemo.service36.impl.CategoryServiceImpl;
-import tw.hibernatedemo.util.HibernateUtil;
 
 @WebServlet("/SelectAllServlet.do")
 public class CategorySelectAllServlet extends HttpServlet {
@@ -25,10 +22,8 @@ public class CategorySelectAllServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		req.setCharacterEncoding("UTF-8");
-		SessionFactory factory = HibernateUtil.getSessionFactory();
-		Session session = factory.getCurrentSession();
 
-		CategoryService cgS = new CategoryServiceImpl(session);
+		CategoryService cgS = new CategoryServiceImpl();
 
 		List<Category> list = null;
 		try {

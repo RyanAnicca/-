@@ -1,6 +1,7 @@
 package tw.hibernatedemo.controller36.servlet;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,6 +10,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import tw.hibernatedemo.model36.Category;
+import tw.hibernatedemo.service36.impl.CategoryServiceImpl;
 
 
 @MultipartConfig()
@@ -23,11 +27,16 @@ public class CategorySelectByPdidServlet extends HttpServlet {
 		System.out.println(parameter);
 		CategoryServiceImpl cgS = new CategoryServiceImpl();
 
-		Category select = cgS.select(parameter);
+		Category select;
+		try {
+			select = cgS.select(parameter);
+			req.setAttribute("Category", select);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
-		req.setAttribute("Category", select);
-		System.out.println(select.toString());
-		RequestDispatcher rd = req.getRequestDispatcher("/T4_36/html5up-editorial/Pd_update.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("/Pd_update.jsp");
 		rd.forward(req, resp);
 		return;
 

@@ -27,7 +27,7 @@ public class CategoryDeleteServlet extends HttpServlet {
 		categoryService.delete(Integer.parseInt(ProductId));
 
 		String contextPath = req.getContextPath();
-		resp.sendRedirect(contextPath + "/T4_36/html5up-editorial/Pd_ok.jsp");
+		resp.sendRedirect(contextPath + "/Pd_ok.jsp");
 		} catch (IOException | NumberFormatException | SQLException e) {
 			throw new RuntimeException(e);
 		}

@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringMvcWebProject"/>
+			<item value="SpringWebProject"/>
 			<item value="SpringProject"/>
 			<item value="Hibernate_web"/>
 			<item value="Hibernate_demo"/>
@@ -9,6 +11,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvcWebProject"/>
+			<item value="SpringWebProject"/>
 			<item value="SpringProject"/>
 			<item value="Hibernate_web"/>
 			<item value="Hibernate_demo"/>

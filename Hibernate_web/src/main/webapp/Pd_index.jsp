@@ -52,7 +52,7 @@
 		<!-- Sidebar -->
 		<div id="sidebar">
 			<div class="inner">
-
+	
 				<!-- Search -->
 				<section id="search" class="alt">
 					<form method="post" action="#">

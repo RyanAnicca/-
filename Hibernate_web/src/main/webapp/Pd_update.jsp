@@ -41,8 +41,8 @@
 		<input type="text" value='${Category.pdtitle}' name="Pdtitle">產品規格<br> 
 		<input type="text" value='${Category.pdcontent}' name="Pdcontent">產品類型<br>
 		<input type="text" value='${Category.pdtype}' name="Pdtype">照片<br>
-		<td><img width="80" height="100"
-						src="<c:url value='/CategoryImgSelectByPdid?pdid=${Category.pdid}'/>" /></td>僅供預覽，不可修改<br>價位<br> 
+<!-- 		<td><img width="80" height="100" -->
+<%-- 						src="<c:url value='/CategoryImgSelectByPdid?pdid=${Category.pdid}'/>" /></td>僅供預覽，不可修改<br>價位<br>  --%>
 		<input type="text" value='${Category.pdprice}' name="Pdprice">庫存數量<br> 
 		<input type="text" value='${Category.pdinventory}' name="Pdinventory">上架日期<br> 
 		<input type="text" value='${Category.pddate}' name="Pddate" readonly="readonly" />商品更新日期<br>

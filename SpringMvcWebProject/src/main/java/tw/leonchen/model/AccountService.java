@@ -10,7 +10,7 @@ public class AccountService {
 
 	@Autowired
 	private AccountDao aDao;
-
+	 
 	public boolean checkLogin(Account account) {
 		return aDao.checkLogin(account);
 	}

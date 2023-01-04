@@ -11,19 +11,19 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 	@Override   //用來設定相當於beans.config.xml的Java程式組態類別
 	protected Class<?>[] getRootConfigClasses() {
 		return new Class[] {RootAppConfig.class};
-		//return null;
+//		return null;
 	}
 
 	@Override   //用來設定相當於mvc-servlet.xml的Java程式組態類別
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] {WebAppConfig.class};
-		//return null;
+//		return null;
 	}
 
 	@Override   //用來設定url-pattern的路徑
 	protected String[] getServletMappings() {
 		return new String[] {"/"};
-		//return null;
+//		return null;
 	}
 
 	@Override
